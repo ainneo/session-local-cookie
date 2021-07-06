@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <p>Open chrome dev tools - look in the Applications tab to start debugging storage sessions</p>
+        <p>https://www.youtube.com/watch?v=GihQAC1I39Q</p>
+        <p>JWT is just for Autherization which is making sure the same user that was Authenticated durning the login process has acess to a particular system.
+        The way this is normally done is sending session ids in cookies in the browser. Everytime the client makes a request, they send that session id to the server. 
+        The server checks it's memory and looks for the user that has the matching session ID and Authorizes the user to have access.
+        BUT JWOT does not use cookies, it uses a JSON web token.
+        </p>
+        <p>https://www.youtube.com/watch?v=7Q17ubqLfaM</p>
+        <script src="cookie-local-session.js" async defer></script>
+    </body>
+</html>
